@@ -33,6 +33,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.0a4.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
 	<script type="text/javascript" src="js/jquery.form.js"></script>
 	<script type="text/javascript" src="js/margin-tonic.js"></script>
@@ -98,7 +99,7 @@
 	$(window).scroll(function() {
 		$('.comment:mt-show').show();
 		$('.comment:not(:mt-show)').hide();
-		$.margin_tonic.scroll_colorbox || $.colorbox.close()
+		//$.margin_tonic.scroll_colorbox || $.colorbox.close()
 	});
 
 </script>
